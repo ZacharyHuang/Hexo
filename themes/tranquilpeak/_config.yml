@@ -48,7 +48,7 @@ sidebar:
             icon: tags
         archives:
             title: global.archives
-            url: /archives
+            url: /archives/index.html
             icon: archive
         # search:
         #     title: global.search

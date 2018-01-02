@@ -40,31 +40,31 @@ sidebar:
             icon: home
         categories:
             title: global.categories
-            url: /all-categories
+            url: /categories
             icon: bookmark
         tags:
             title: global.tags
-            url: /all-tags
+            url: /tags
             icon: tags
         archives:
             title: global.archives
-            url: /all-archives
+            url: /archives
             icon: archive
-        search:
-            title: global.search
-            url: /#search
-            icon: search
+        # search:
+        #     title: global.search
+        #     url: /#search
+        #     icon: search
             # `open-algolia-search` classes are used to open algolia search modal
-            class: open-algolia-search
+        #     class: open-algolia-search
         about:
             title: global.about
             url: /#about
             icon: question
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
+        github:
+            title: global.github
+            url: https://github.com/zacharyhuang
+            icon: github
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -122,7 +122,7 @@ header:
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
     email:
-    location:
+    location: Beijing China
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url

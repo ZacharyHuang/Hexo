@@ -79,4 +79,10 @@ theme: tranquilpeak
 deploy:
   type: git
   repo: https://github.com/ZacharyHuang/Hexo.git
-  branch: master
+  branch: azurepublish
+
+# Admin plugin
+admin:
+  username: zachary
+  password_hash: $2a$10$4s.Gcxtz3fj8E9NOXBTKLeMwtJ0Zp7dyLCJlJqx/8vaBitFrgak9a
+  secret: May the force be with you
